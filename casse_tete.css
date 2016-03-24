@@ -1,0 +1,110 @@
+
+  body {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 16px;
+    background: #d9ece2;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px; 
+  }
+               
+  h1 {
+    font: normal normal normal 150% arial, verdana, sans-serif;
+    color : coral;
+  }
+
+  p {
+    line-height: 1.5em;
+    text-align: justify;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  
+  nav {
+    width: 78%;
+    height: 30px;
+    font-weight: bold;
+    color: #999999;
+    background-color: #444444;
+    border-top: 2px solid #999999;
+  }
+
+  nav ul {
+    margin: 0px; 
+    padding: 0px;
+  }
+
+  nav ul li {
+    height: 30px; 
+    float: left; 
+    list-style: none;
+    margin-left: 15px;
+    position: relative;
+  }
+
+  nav ul li:hover {
+    color: #d9ece2;
+  }
+  
+  nav li button {
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: silver;
+    width: 120px;     
+  }
+
+  #main {
+    float: left;
+    width: 78%;
+  }
+     
+  #side {
+    float: right;
+    width: 18%;
+  }
+  
+  #rejouer{
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #ffffff;
+    width: 140px; 
+    margin-left: 80px;
+  }
+  
+  #gameCanvas {
+    float:right;  
+  }
+
+  #labelModel {
+    padding:150px;
+  }
+  
+  #labelGame {
+    padding-left:260px;
+  }
+  
+  #chrono {
+    border: 1px solid #999999;
+    float: right;
+  }
+  
+  #points{
+    border: 1px solid #999999;
+    float: left;
+  }
+
+  #resultat {
+    color: #ff0000;
+    font-size: 60px;
+    margin-left : 160px;
+    margin-right : 240px;
+  }
+
+  #scorePartie {
+    color: #ff0000;
+    font-size: 14px;
+    margin : 330px;  
+  }

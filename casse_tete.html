@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Un casse-tête coloré !</title>
+      <link rel="stylesheet" href="casse_tete.css">
+  </head>
+
+  <body>
+    <h1>Un casse-tête coloré</h1>
+    
+    <section id="options"></section>
+    
+    <section id="main"> 
+      <p>
+        <span id="points">Points accumulés : 0</span>
+        <span id="resultat"></span>
+        <span id="chrono"></span>
+        <span id="scorePartie"></span>
+      </p>
+      <p>
+        <span id="labelModel">Grille modèle</span>
+        <span id="labelGame">Grille de jeu</span>
+      </p>
+      <canvas id="modelCanvas" width="400" height="400">
+        Canvas is not supported in your browser.
+      </canvas> 
+      <canvas id="gameCanvas" width="400" height="400">
+        Canvas is not supported in your browser.
+      </canvas>
+    </section>
+    
+    <section id="side">
+      <p>Le but du jeu est d'obtenir à droite la même grille que la grille modèle. </p>
+      <p>La case noire correspond à un emplacement vide : vous ne pouvez bouger que les cases qui sont à côté de cette case vide.
+      Cliquez sur une case pour la faire glisser dans l'emplacement vide.</p>
+      <p>Si la grille contient plusieurs cases de la même couleur, vous avez de la chance : elles sont équivalentes !
+      Attention, car certaines couleurs se ressemblent...</p>
+      <p>Bon casse-tête !</p>
+    </section>
+
+    <script type="application/dart" src="casse_tete.dart"></script>
+    <script src="outils/dart.js"></script>
+  </body>
+</html>
